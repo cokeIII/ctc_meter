@@ -1638,9 +1638,10 @@
 
   function onMessageArrived(message) {
     // console.log(message)
-    if (JSON.parse(message.payloadString)) {
-      let data = JSON.parse(message.payloadString)
-      console.log(data);
+
+    let data = JSON.parse(message.payloadString)
+    console.log(data);
+    if (data[0] < 15) {
       //----meter 1
       var ctA1 = document.getElementById("a" + data[0] + "1")
       var ctA2 = document.getElementById("a" + data[0] + "2")
