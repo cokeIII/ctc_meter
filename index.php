@@ -1638,7 +1638,7 @@
 
   function onMessageArrived(message) {
     // console.log(message)
-    if (message.payloadString) {
+    if (JSON.parse(message.payloadString)) {
       let data = JSON.parse(message.payloadString)
       console.log(data);
       //----meter 1
