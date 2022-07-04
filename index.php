@@ -1561,12 +1561,12 @@
     var myChartV1 = new Chart(ctx, {
       type: 'doughnut',
       data: {
-        labels: ["Amp"],
+        labels: ["ampere"],
         datasets: [{
           display: true,
           label: '# of Votes',
           data: [val, 100 - 50],
-          text: "ff",
+          text: "ampere",
           backgroundColor: [
             '#F77E21'
           ],
@@ -1593,7 +1593,7 @@
           display: true,
           label: '# of Votes',
           data: [val, 100 - 50],
-          text: "ff",
+          text: "Voltage",
           backgroundColor: [
             '#FAC213'
           ],
