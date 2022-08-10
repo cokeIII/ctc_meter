@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "chontech2021!";
+$password = "chontech2022!";
 $database = "ctc_meter";
 
 // Create connection
