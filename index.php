@@ -1513,7 +1513,7 @@
     let valV2 = ""
     let valV3 = ""
     <?php
-    $sqlM = "select * from log_data where date(time_stamp) = CURDATE()";
+    $sqlM = "select * from log_data where date(time_stamp) = CURDATE() limit 14";
     $resM = mysqli_query($conn, $sqlM);
     while ($rowM = mysqli_fetch_array($resM)) { ?>
 
